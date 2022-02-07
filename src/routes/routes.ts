@@ -12,8 +12,8 @@ interface Route {
 }
 
 const LazyLayout = lazy(() => import(/*webpackChunckName: "LazyPage1"*/ '../01-lazyload/layout/LazyLayout'));
-// const Lazy2 = lazy(() => import(/*webpackChunckName: "LazyPage1"*/ '../01-lazyload/pages/LazyPage2'));
-// const Lazy3 = lazy(() => import(/*webpackChunckName: "LazyPage1"*/ '../01-lazyload/pages/LazyPage3'));
+// const Lazy2 = lazy(() => import(/*webpackChunckName: "LazyPage2"*/ '../01-lazyload/pages/LazyPage2'));
+// const Lazy3 = lazy(() => import(/*webpackChunckName: "LazyPage3"*/ '../01-lazyload/pages/LazyPage3'));
 
 export const routes: Route[] = [
     {
